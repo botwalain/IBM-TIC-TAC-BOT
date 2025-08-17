@@ -819,7 +819,7 @@ def send_enhanced_main_menu(chat_id, message_id=None):
     total = user_stats.get('total_games', 0)
     streak = user_stats.get('current_streak', 0)
     
-    text = f"🎮 Advanced Tic-Tac-Toe\n\nWelcome back, {name}!\n\n"
+    text = f"🎮 Tic Tac Toe Bot\n\nWelcome back, {name}!\n\n"
     text += f"🏆 Wins: {wins} | 📊 Games: {total}\n"
     text += f"⚡ Current Streak: {streak}"
     
@@ -1319,7 +1319,7 @@ def handle_enhanced_callback(call):
             
             text = f"👥 Waiting for a Friend...\n\n"
             text += f"Share this link with a friend to play:\n"
-            text += f"`{share_link}`\n\n"
+            text += f"{share_link}\n\n"
             text += f"⏰ This invitation expires in 10 minutes."
             
             markup = InlineKeyboardMarkup()
@@ -2050,6 +2050,7 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
 
