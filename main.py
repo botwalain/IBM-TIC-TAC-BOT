@@ -11,11 +11,11 @@ import sqlite3
 from collections import defaultdict
 
 # -------------------- BOT CONFIGURATION --------------------
-BOT_TOKEN = ''  # Replace with your actual bot token
+BOT_TOKEN = '7985636415:AAHDVH6c1U55hl83eRHQeidiDxky_c7e9js'  # Replace with your actual bot token
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Admin Configuration
-ADMIN_IDS = []  # Your admin ID
+ADMIN_IDS = [2125687935]  # Your admin ID
 
 # --- Enhanced Constants ---
 EMPTY = "⬜"
@@ -2050,5 +2050,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
